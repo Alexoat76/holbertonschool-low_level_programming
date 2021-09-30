@@ -1,5 +1,5 @@
 /*
- * File: 4-puts.c
+ * File: 5-printf.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */
