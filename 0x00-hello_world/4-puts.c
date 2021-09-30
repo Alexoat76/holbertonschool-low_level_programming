@@ -1,10 +1,9 @@
-/*
-* File: 4-puts.c
-* Author: Alex Arévalo
-* e-mail: 3915@holbertonschool.com
-*/
-
 #include <stdio.h>
+/*
+ * File: 4-puts.c
+ * Author: Alex Arévalo
+ * e-mail: 3915@holbertonschool.com
+ */
 /*
 *C program print exactly "Programming is like building a multilingual puzzle,followed by a new line.
  *
@@ -13,7 +12,7 @@
 
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 
-        return (0);
+return (0);
 }
