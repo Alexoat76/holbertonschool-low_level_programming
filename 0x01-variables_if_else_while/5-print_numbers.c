@@ -1,5 +1,5 @@
 /*
- * File: 2-print_alphabet.c
+ * File: 5-print_numbers.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */
@@ -15,11 +15,13 @@
 
 int main(void)
 {
-char letter;
-
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar (letter);
-putchar ('\n');
+int counter;
+printf("\n");
+counter = 0;
+while (counter <= 9)
+{printf("%d", counter );
+counter++;
+}
 
 return (0);
 }

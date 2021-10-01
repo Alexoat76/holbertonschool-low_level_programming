@@ -1,5 +1,5 @@
 /*
- * File: 0-positive_or_negative.c
+ * File: 1-last_digit.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */
