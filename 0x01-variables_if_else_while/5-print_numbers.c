@@ -15,13 +15,12 @@
 
 int main(void)
 {
-int counter;
-printf("\n");
-counter = 0;
-while (counter <= 9)
-{printf("%d", counter);
-counter++;
+int n = 0;
+while (n < 10)
+{
+printf("%d", n);
+n++;
 }
-
+putchar('\n');
 return (0);
 }
