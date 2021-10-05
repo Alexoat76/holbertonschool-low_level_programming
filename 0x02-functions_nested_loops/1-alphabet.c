@@ -7,7 +7,7 @@
 #include "main.h"
 
 /**
-* main - Prints _putchar, followed by a new line.
+* print_alphabet - Prints the alphabet, in lowercase, followed by a new line.
 * Return: Always 0.
 */
 
