@@ -1,5 +1,5 @@
 /*
- * File: 0-putchar.c
+ * File: 2-print_alphabet_x10.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */
