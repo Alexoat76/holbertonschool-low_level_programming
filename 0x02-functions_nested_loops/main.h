@@ -1,9 +1,3 @@
-/*
- * File: main.h
- * Author: Alex O. Arevalo T.
- * email: 3915@holbertonschool.com
- */
-
 #ifndef MAIN_H
 #define MAIN_H
 
