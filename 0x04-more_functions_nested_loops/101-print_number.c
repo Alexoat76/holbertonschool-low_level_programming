@@ -20,6 +20,6 @@ _putchar('-');
 num = -num;
 }
 if ((num / 10) > 0)
-printf(num / 10);
+_putchar(num / 10);
 _putchar((num % 10) + '0');
 }
