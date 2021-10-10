@@ -14,29 +14,31 @@
 * Return: Always 0.
 */
 
-void print_triangle(int size)
+int main(void)
 {
-int i, j;
-if (size > 0)
+int i;
+for (i = 1; i <= 100; i++)
 {
-for (i = 1; i <= size; i++)
+if (i % 3 == 0 || i % 5 == 0)
 {
-for (j = 1; j <= size; j++)
+if (i % 3 == 0)
 {
-if (j <= size - i)
-{
-_putchar(' ');
+printf("Fizz");
 }
-else
+if (x % 5 == 0)
 {
-_putchar('#');
-}
-}
-_putchar('\n');
+printf("Buzz");
 }
 }
 else
 {
-_putchar('\n');
+printf("%d", x);
 }
+if (x != 100)
+{
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
