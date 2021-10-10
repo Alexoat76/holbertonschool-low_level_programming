@@ -7,7 +7,7 @@
 #include "main.h"
 
 /**
-* print_triangle - Prints an integer.
+* print_number - Prints an integer.
 * @n: integer to be printed.
 */
 
@@ -20,6 +20,6 @@ _putchar('-');
 num = -num;
 }
 if ((num / 10) > 0)
-_putchar(num / 10);
+_print_number(num / 10);
 _putchar((num % 10) + '0');
 }
