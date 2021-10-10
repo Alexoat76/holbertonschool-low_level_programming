@@ -25,16 +25,16 @@ if (i % 3 == 0)
 {
 printf("Fizz");
 }
-if (x % 5 == 0)
+if (i % 5 == 0)
 {
 printf("Buzz");
 }
 }
 else
 {
-printf("%d", x);
+printf("%d", i);
 }
-if (x != 100)
+if (i != 100)
 {
 putchar(' ');
 }
