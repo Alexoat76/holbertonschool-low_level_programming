@@ -1,4 +1,4 @@
-ls/*
+/*
  * File: 6-puts2.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
