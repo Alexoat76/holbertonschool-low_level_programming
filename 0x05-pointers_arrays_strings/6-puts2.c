@@ -1,4 +1,4 @@
-/*
+ls/*
  * File: 6-puts2.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
@@ -17,7 +17,7 @@ void puts2(char *str)
 int i = 0, j = 0;
 while (str[i++])
 j++;
-for (i = 0; i < len; i += 2)
+for (i = 0; i < j; i += 2)
 _putchar(str[i]);
 _putchar('\n');
 }
