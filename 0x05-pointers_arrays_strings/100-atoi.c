@@ -14,7 +14,7 @@
 
 int _atoi(char *s)
 {
-int a, b, c, m;
+int a, b, c, d;
 a = c = 0;
 d = 1;
 while ((*(s + a) < '0' || *(s + a) > '9') && (*(s + a) != '\0'))
