@@ -14,13 +14,11 @@
  *         If n < 0 - 1 to indicate an error.
 */
 
-int _pow_recursion(int x, int y)
+int factorial(int n)
 {
-int result = x;
-if (y < 0)
+if (n < 0)
 return (-1);
-else if (y == 0)
+else if (n <= 1)
 return (1);
-result *= _pow_recursion(x, y - 1);
-return (result);
+return (n * factorial(n - 1));
 }
