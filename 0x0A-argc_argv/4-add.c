@@ -7,6 +7,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Prints the addition of positive numbers,
@@ -19,17 +20,22 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-long sum;
-for (i = 1, sum = 0; i < argc; i++)
+int a = 0, i, j;
+for (i = 1; i < argc; i++)
 {
-if (*argv[i] == 0 || atoi(argv[i]) <= 0)
+for (j = 0; argv[i][j]; j++)
 {
-printf("Error\n");
+if (isdigit(argv[i][j]) == 0)
+{
+puts("Error");
 return (1);
 }
-sum += atoi(argv[i]);
 }
-printf("%ld\n", sum);
+}
+for (i = 1; i < argc; i++)
+{
+a += atoi(argv[i]);
+}
+printf("%d\n", a);
 return (0);
 }
