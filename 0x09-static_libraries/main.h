@@ -1,16 +1,13 @@
-/*
- * File: main.h for my library
- * Author: Alex O. Arevalo T.
- * email: 3915@holbertonschool.com
- */
-
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdlib.h>
 
-/**
- * Desc: Header file containing prototypes for all functions,
- *       used in the "0x09. C - Static libraries" directory.
+/*
+ * File: main.h
+ * Auth: Alex Orland Arevalo Tribaldos
+ * email: 3915@holbertonschool.com
+ *
+ * Desc: Header file containing the prototypes of all functions
+ *       included in the static library libmy.a
  */
 
 int _putchar(char c);
