@@ -22,28 +22,28 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i, j, k;
 char *s;
-if (s1 == 0)
+if (s1 == NULL)
 s1 = "";
 else
 {
 for (i = 0; s1[i] != '\0'; i++)
 continue;
 }
-if (s2 == 0)
+if (s2 == NULL)
 s2 = "";
 else
 {
 for (j = 0; s2[j] != '\0'; j++)
 continue;
 }
-if (j > n)
+if (j < n)
 j = n;
-s = malloc(sizeof(char) * (i + j + 1));
+s = malloc(sizeof(char) * (i + n + 1));
 if (s == NULL)
 return (NULL);
 for (k = 0; s1[k] != '\0'; k++)
 s[k] = s1[k];
-for (k = 0; s2[k] != '\0'; k++)
+for (k = 0; k < n; k++)
 s[i + k] = s2[k];
 s[i + k] = '\0';
 return (s);
