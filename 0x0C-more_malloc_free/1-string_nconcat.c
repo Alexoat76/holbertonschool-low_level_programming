@@ -22,15 +22,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i, j, k;
 char *s;
-if (s1 == NULL)
-i = 0;
+if (s1 == 0)
+s1 = "";
 else
 {
 for (i = 0; s1[i] != '\0'; i++)
 continue;
 }
-if (s2 == NULL)
-j = 0;
+if (s2 == 0)
+s2 = "";
 else
 {
 for (j = 0; s2[j] != '\0'; j++)
