@@ -14,14 +14,14 @@
 /**
  * struct printer - A new struct type defining a printer.
  * @tpar: A type of parameter printed.
- * @prnf: A function pointer to a function that prints
- *         a type of parameter.
+ * @pf: A function pointer to a function that prints
+ *        a type of parameter.
 */
 
 typedef struct printer
 {
-  char *tpar;
-  void (*prnf)(va_list);
+char *tpar;
+void (*pf)(va_list);
 } printer_tpar;
 
 
