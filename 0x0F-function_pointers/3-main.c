@@ -18,7 +18,7 @@
 int main(int argc, char *argv[])
 {
 int a, b, rsl;
-int (*op)(int, int);
+int (*f)(int, int);
 if (argc != 4)
 {
 printf("Error\n");
@@ -27,12 +27,12 @@ exit(98);
 a = atoi(argv[1]);
 b = atoi(argv[3]);
 op = get_op_func(argv[2]);
-if (op == NULL)
+if (f == NULL)
 {
 printf("Error\n");
 exit(99);
 }
-rsl = op(a, b);
+rsl = f(a, b);
 printf("%d\n", rsl);
 return (0);
 }
