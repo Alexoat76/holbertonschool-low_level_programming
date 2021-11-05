@@ -37,6 +37,12 @@ exit(99);
 }
 a = atoi(argv[1]);
 b = atoi(argv[3]);
+if ((*o == '/' && b == 0) ||
+(*o == '%' && b == 0))
+{
+printf("Error\n");
+exit(100);
+}
 printf("%d\n", o(a, b));
 return (0);
 }
