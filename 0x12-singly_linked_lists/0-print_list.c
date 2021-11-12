@@ -9,19 +9,21 @@
 /**
  * print_list - prints all the elements
  *              of a "list_t" list.
- * @h: pointer to the start of the list.
+ * @head: pointer to the start of the list.
  * Return: number of nodes in the list.
  */
 
-size_t print_list(const list_t *h)
+size_t print_list(const list_t *head)
 {
-const list_t *tmp;
-unsigned int i;
-tmp = h;
-for (i = 0; tmp != NULL; i++)
+size_t nodes = 0;
+while (head != NULL)
 {
-printf("[%u] %s\n", tmp->len, tmp->str);
-tmp = tmp->next;
+if (head->str == NULL)
+printf("[0] (nil)\n");
+else
+printf("[%d] %s\n", head->len, head->str);
+nodes++;
+head = head->next;
 }
-return (i);
+return (nodes);
 }
