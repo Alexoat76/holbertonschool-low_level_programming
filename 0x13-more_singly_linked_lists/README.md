@@ -1,6 +1,5 @@
-<center>
-![logo_Logo_HS!](https://apply.holbertonschool.com/holberton-logo.png)
-</center>
+![Brand_HS!](https://ml.globenewswire.com/Resource/Download/d138c375-4652-4de1-9ca2-0079e2686576)
+![Logo!](https://user-images.githubusercontent.com/91083806/141827114-551e18c7-683b-4fcc-8bc2-ae8a66c0974d.png)
 
 # C - More singly linked lists
 <div style="text-align: justify">
@@ -10,8 +9,9 @@ Don't forget to fully meet the following development requirements. </div>
 
 ## Author(s):
 
-** `Alex Orland Arévalo Tribaldos`
-*  email: <`3915@holbertonschool.com`>
+**`Alex Orland Arévalo Tribaldos`**
+
+<3915@holbertonschool.com>
 
 ## Requirements 
 
