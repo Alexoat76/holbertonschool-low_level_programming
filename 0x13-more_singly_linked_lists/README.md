@@ -1,4 +1,4 @@
-# ![logo_Logo_HS!](/Users/aoare/Pictures/Logo_HS.png)
+![logo_Logo_HS!](https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png)
 
 # C - More singly linked lists
 <div style="text-align: justify">
