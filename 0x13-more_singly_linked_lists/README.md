@@ -7,6 +7,7 @@ Don't forget to fully meet the following development requirements.
 
 ## General :page_with_curl:
 
+<div style="text-align: justify">
 Allowed editors: vi, vim, emacs.
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra
 -pedantic -std=gnu89.
@@ -25,7 +26,7 @@ our own main.c files at compilation. Our main.c files might be different from th
 The prototypes of all your functions and the prototype of the function _putchar should be included in your
 header file called lists.h
 Don’t forget to push your header file.
-All your header files should be include guarded.
+All your header files should be include guarded.</div>
 
 
 ## Header File :file_folder:
