@@ -1,4 +1,6 @@
-![logo_Logo_HS!](https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png)
+<center>
+![logo_Logo_HS!](https://apply.holbertonschool.com/holberton-logo.png)
+</center>
 
 # C - More singly linked lists
 <div style="text-align: justify">
@@ -8,7 +10,7 @@ Don't forget to fully meet the following development requirements. </div>
 
 ## Author(s):
 
-** Alex Orland Arévalo Tribaldos
+** `Alex Orland Arévalo Tribaldos`
 *  email: <`3915@holbertonschool.com`>
 
 ## Requirements 
