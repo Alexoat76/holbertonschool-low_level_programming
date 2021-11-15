@@ -7,28 +7,38 @@ Don't forget to fully meet the following development requirements. </div>
 ## Requirements 
 
 ## General :page_with_curl:
-
-<p style='text-align: justify;'>
-Allowed editors: vi, vim, emacs.
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra
--pedantic -std=gnu89.
-All your files should end with a new line.
-A README.md file, at the root of the folder of the project is mandatory.
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables.
-No more than 5 functions per file.
-The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts,
-calloc, realloc etc… is forbidden.
-You are allowed to use _putchar.
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account.
-In the following examples, the main.c files are shown as examples. You can use them to test your functions,
-but you don’t have to push them to your repo (if you do we won’t take them into account). We will use
-our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your
-header file called lists.h
-Don’t forget to push your header file.
-All your header files should be include guarded.</p>
-
+<div style="text-align: justify">
+Allowed editors: vi, vim, emacs. </div>
+<div style="text-align: justify">
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89. </div>
+<div style="text-align: justify">
+All your files should end with a new line. </div>
+A README.md file, at the root of the folder of the project is mandatory. </div>
+<div style="text-align: justify">
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl. </div>
+<div style="text-align: justify">
+You are not allowed to use global variables. </div>
+<div style="text-align: justify">
+No more than 5 functions per file. </div>
+<div style="text-align: justify">
+The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden.</div>
+<div style="text-align: justify">
+You are allowed to use _putchar. </div>
+<div style="text-align: justify">
+You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account. </div>
+<div style="text-align: justify">
+In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you
+<div style="text-align: justify">
+don’t have to push them to your repo (if you do we won’t take them into account). </div>
+<div style="text-align: justify">
+We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples. </div>
+<div style="text-align: justify">
+The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h </div>
+<div style="text-align: justify">
+Don’t forget to push your header file. </div>
+<div style="text-align: justify">
+All your header files should be include guarded. </div>
+<div style="text-align: justify">
 
 ## Header File :file_folder:
 
