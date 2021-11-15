@@ -5,7 +5,7 @@ Don't forget to fully meet the following development requirements.
 
 ## Requirements 
 
-* [General]:page_with_curl:
+## General :page_with_curl:
 
 Allowed editors: vi, vim, emacs.
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra
