@@ -7,7 +7,7 @@
  */
 
 /**
- * print_list - prints all the elements
+ * print_listint - prints all the elements
  *              of a "listint_t" list.
  * @head: pointer to the start of the list.
  * Return: number of nodes in the list.
@@ -18,8 +18,8 @@ size_t print_listint(const listint_t *head)
 size_t nodes = 0;
 while (head)
 {
-printf("%d\n", head->n);
 nodes++;
+printf("%d\n", head->n);
 head = head->next;
 }
 return (nodes);
