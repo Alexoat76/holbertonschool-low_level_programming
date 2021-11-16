@@ -57,7 +57,7 @@ Please visit the [Betty Wiki](https://github.com/holbertonschool/Betty/wiki) for
 
 <div style="text-align: justify">
 	
-*You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account. </div>
+*You don’t have to push [_putchar.c](https://github.com/holbertonschool/_putchar.c) , we will use our file. If you do it won’t be taken into account. </div>
 
 <div style="text-align: justify">
 	
