@@ -7,20 +7,28 @@ In this project, you should continue to practice the construction and use of sin
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
-## Author(s):
 
-**`Alex Orland Arévalo Tribaldos`**
+# Getting Started :running:
 
-<3915@holbertonschool.com>
+## Requirements :page_with_curl:
 
-## Requirements 
+### Resources
+
+**Read or watch** :
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/)
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=linked+lists)
+
+
+
 
 ## General :page_with_curl:
 <div style="text-align: justify">
 * Allowed editors: vi, vim, emacs. </div>
 <div style="text-align: justify">
-* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options  </div>
-
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options: 
+	
 `-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
 <div style="text-align: justify">
 * All your files should end with a new line. </div>
@@ -29,7 +37,11 @@ Don't forget to fully meet the following development requirements. </div>
 *A `README.md` file, at the root of the folder of the project is mandatory. </div>
 
 <div style="text-align: justify">
-* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl. </div>
+* Your code should use the Betty style. It will be checked using</div>
+
+`betty-style.pl` and `betty-doc.pl`.</div>
+
+Please visit the [Betty Wiki](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
 <div style="text-align: justify">
 * You are not allowed to use global variables. </div>
 <div style="text-align: justify">
@@ -52,8 +64,11 @@ Don't forget to fully meet the following development requirements. </div>
 *In the following examples,`the main.c files are shown as examples`. </div>
 
 <div style="text-align: justify">
-* You can use them to test your functions, but you
-  don’t have to push them to your repo (if you do we won’t take them into account). </div>
+* You can use them to test your functions, but you don’t have to push them to
+	<div style="text-align: justify">
+		
+   your repo ( *if you do we won’t take them into account* ).</div>
+	
 <div style="text-align: justify">
 * We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples. </div>
 <div style="text-align: justify">
@@ -184,3 +199,28 @@ and functions written for the project.
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.
+	
+
+## Author(s):blue_book:
+
+### **`Alex Orland Arévalo Tribaldos`**
+
+<3915@holbertonschool.com>
+
+@Alexoat76 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
+@aoarevalot [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
+Alexoat76 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
+
+
+## Acknowledgments :mega: 
+
+### **`Holberton School`** (*providing guidance*)
+
+www.holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crystal_Clear_app_Internet_Connection_Tools.svg/30px-Crystal_Clear_app_Internet_Connection_Tools.svg.png)](https://www.holbertonschool.com/)
+	support@holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/25px-Mail_%28iOS%29.svg.png)](https://github.com/holbertonschool#:~:text=support%40holbertonschool.com)
+	
+
+	
+	
+	
+
