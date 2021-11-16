@@ -1,5 +1,4 @@
-![Brand_HS!](https://ml.globenewswire.com/Resource/Download/d138c375-4652-4de1-9ca2-0079e2686576)
-![Logo!](https://user-images.githubusercontent.com/91083806/141827114-551e18c7-683b-4fcc-8bc2-ae8a66c0974d.png)
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
 
 # 0x13. C - More singly linked lists
 <div style="text-align: justify">
@@ -37,11 +36,12 @@ Don't forget to fully meet the following development requirements. </div>
 *A `README.md` file, at the root of the folder of the project is mandatory. </div>
 
 <div style="text-align: justify">
-* Your code should use the Betty style. It will be checked using</div>
+* Your code should use the Betty. It will be checked using</div>
 
 `betty-style.pl` and `betty-doc.pl`.</div>
 
-Please visit the [Betty Wiki](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
+Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
+
 <div style="text-align: justify">
 * You are not allowed to use global variables. </div>
 <div style="text-align: justify">
@@ -215,6 +215,7 @@ Alexoat76 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Linked
 ## Acknowledgments :mega: 
 
 ### **`Holberton School`** (*providing guidance*)
-
+	
+![Brand](https://avatars.githubusercontent.com/u/13408012?s=50&v=4)
 www.holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crystal_Clear_app_Internet_Connection_Tools.svg/30px-Crystal_Clear_app_Internet_Connection_Tools.svg.png)](https://www.holbertonschool.com/)
 	support@holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/25px-Mail_%28iOS%29.svg.png)](https://github.com/holbertonschool#:~:text=support%40holbertonschool.com)
