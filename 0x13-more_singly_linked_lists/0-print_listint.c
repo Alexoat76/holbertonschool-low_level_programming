@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /*
  * File: 0-print_listint.c
