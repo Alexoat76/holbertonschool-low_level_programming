@@ -15,7 +15,7 @@
  */
 
 /**
- * struct list_s - singly linked list
+ * struct listint_s - singly linked list
  * @n: integer.
  * @next: points to the next node.
  */
