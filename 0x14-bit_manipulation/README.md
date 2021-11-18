@@ -1,8 +1,8 @@
 ![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
 
-# 0x13. C - More singly linked lists
+# 0x14. C - Bit manipulation
 <div style="text-align: justify">
-In this project, you should continue to practice the construction and use of singly linked lists in C. </div>
+In this project, you should be to practice the Bit manipulation in C. </div>
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
@@ -15,9 +15,9 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/webhp?q=bit+manipulation+C)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=linked+lists)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=bitwise+operators+in+c)
 
 
 
