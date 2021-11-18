@@ -76,7 +76,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 <div style="text-align: justify"> 
 
-`lists.h` </div>
+`main.h` </div>
 
 <div style="text-align: justify">
 	
@@ -94,106 +94,57 @@ and functions written for the project.
 | -------------------------- | -------------------------------------------------------------------------------- |
 | `struct listint_s`         | <ul><li>`int n`</li><li>`struct listint_s *next`</li></ul>                       |
 | `typedef listint_t`        | `struct listint_s`                                                               |
-| `0-print_listint.c`        | `size_t print_listint(const listint_t *h);`                                      |
-| `1-listint_len.c`          | `size_t listint_len(const listint_t *h);`                                        |
-| `2-add_nodeint.c`          | `listint_t *add_nodeint(listint_t **head, const int n);`                         |
-| `3-add_nodeint_end.c`      | `listint_t *add_nodeint_end(listint_t **head, const int n);`                     |
-| `4-free_listint.c`         | `void free_listint(listint_t *head);`                                            |
-| `5-free_listint2.c`        | `void free_listint2(listint_t **head);`                                          |
-| `6-pop_listint.c`          | `int pop_listint(listint_t **head);`                                             |
-| `7-get_nodeint.c`          | `listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);`          |
-| `8-sum_listint.c`          | `int sum_listint(listint_t *head);`                                              |
-| `9-insert_nodeint.c`       | `listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);` |
-| `10-delete_nodeint.c`      | `int delete_nodeint_at_index(listint_t **head, unsigned int index);`             |
-| `100-reverse_listint.c`    | `listint_t *reverse_listint(listint_t **head);`                                  |
-| `101-print_listint_safe.c` | `size_t print_listint_safe(const listint_t *head);`                              |
-| `102-free_listint_safe.c`  | `size_t free_listint_safe(listint_t **h);`                                       |
-| `103-find_loop.c`          | `listint_t *find_listint_loop(listint_t *head);`                                 |
+| `0-binary_to_uint.c`       | `unsigned int binary_to_uint(const char *b);`                                    |
+| `1-print_binary.c`         | `void print_binary(unsigned long int n);`                                        |
+| `2-get_bit.c`              | `int get_bit(unsigned long int n, unsigned int index);`                          |
+| `3-set_bit.c`     	     | `int set_bit(unsigned long int *n, unsigned int index);`                         |
+| `4-clear_bit.c`            | `int clear_bit(unsigned long int *n, unsigned int index);`                       |
+| `5-flip_bits.c`            | `unsigned int flip_bits(unsigned long int n, unsigned long int m);`              |
+| `100-get_endianness.c`     | `int get_endianness(void);`                                                      |
+| `101-password`             | `101-password`          								|
+| `Write Blog post`          | `Blog post on how integers are stored in memory using two’s complement.`         |
+
 
 ## Tasks :page_with_curl:
 
-* **0. Print list**
-  * [0-print_listint.c](./0-print_listint.c): C function that prints all the elements
-    of a `listint_t` linked list.
-        * Returns the number of nodes in the `listint_t` list.
+* **0. 0**
+  * [0-binary_to_uint.c](./0-binary_to_uint.c): Write a C function that converts a binary number 
+	to an `unsigned int`.
+	
+	 *Returns the converted number, or `0` if.
+	*here is one or more chars in the string `b` that is not `0` or `1`. `b` is `NULL`
 
-* **1. List length**
-  * [1-listint_len.c](./1-listint_len.c): C function that returns the number
-    of elements in a `listint_t` linked list.
+* **1. 1**
+  * [1-print_binary.c](./1-print_binary.c): Write a C function that prints the binary representation of a number.
 
-* **2. Add node**
-  * [2-add_nodeint.c](./2-add_nodeint.c): C function that adds a new node at
-    the beginning of a `listint_t` linked list.
-        * If the function fails - returns `NULL`.
-	    * Otherwise - returns the address of the new element.
 
-* **3. Add node at the end**
-  * [3-add_nodeint_end.c](./3-add_nodeint_end.c): C function that adds a new node
-    at the end of a `listint_t` linked list.
-        * If the function fails - returns `NULL`.
-	    * Otherwise - returns the address of the new element.
+* **2. 10**
+  * [2-get_bit.c](./2-get_bit.c): Write a C function that returns the value of a bit at a given index.
+	*where `index` is the index, starting from `0` of the bit you want to get.
+		*Returns: the value of the bit at index `index` or `-1` if an error occured.
 
-* **4. Free list**
-  * [4-free_listint.c](./4-free_listint.c): C function that frees a `listint_t`
-    linked list.
+* **3. 11**
+  * [3-set_bit.c](./3-set_bit.c): Write a C function that sets the value of a bit to `1` at a given index.
+   	*where `index` is the index, starting from `0` of the bit you want to set.
+		*Returns: `1` if it worked, or `-1` if an error occurred.
 
-* **5. Free**
-  * [5-free_listint2.c](./5-free_listint2.c): C function that frees a
-    `listint_t` linked list.
-        * Sets the `head` to `NULL`.
+* **4. 100**
+  * [4-clear_bit.c](./4-clear_bit.c): Write a function that sets the value of a bit to `0` at a given index.
+    	*where `index` is the index, starting from `0` of the bit you want to set.
+		*Returns: `1` if it worked, or `-1` if an error occurred.
 
-* **6. Pop**
-  * [6-pop_listint.c](./6-pop_listint.c): C function that deletes the head node of
-    a `listint_t` linked list.
-        * If the linked list is empty - returns `0`.
-	    * Otherwise - returns the head node's data (`n`).
+* **5. 101**
+  * [5-flip_bits.c](./5-flip_bits.c): Write a Cfunction that returns the number of bits you would need 
+	to flip to get from one number to another.
 
-* **7. Get node at index**
-  * [7-get_nodeint.c](./7-get_nodeint.c): C function that locates a given node
-    of a `listint_t` linked list.
-        * If the node does not exist - returns `NULL`.
-	    * Otherwise - returns the located node.
+* **6. Endianness**
+  * [100-get_endianness.c](./100-get_endianness.c): Write a C function that checks the `endianness`.
+   	*Returns: `0` if big endian, `1` if little endian.
 
-* **8. Sum list**
-  * [8-sum_listint.c](./8-sum_listint.c): C function that returns the sum of all
-    the data (`n`) of a `listint_t` linked list.
-        * If the linked list is empty - returns `0`.
-	    * Otherwise - returns the sum of all the data (`n`).
-
-* **9. Insert**
-  * [9-insert_nodeint.c](./9-insert_nodeint.c): C function that inserts a new node to
-    a `listint_t` linked list at a given position.
-        * If it is not possible to add the new node at index `idx`, or the function
-	    fails - returns `NULL`.
-	        * Otherwise - returns the address of the new node.
-
-* **10. Delete at index**
-  * [10-delete_nodeint.c](./10-delete_nodeint.c): C function that deletes the node at a
-    given index of a `listint_t` linked list.
-        * If the function succeeds - returns `1`.
-	    * If the function fails - returns `-1`.
-
-* **11. Reverse list**
-  * [100-reverse_listint.c](./100-reverse_listint.c): C function that reverses a `listint_t`
-    linked list using a maximum of one loop and two variables.
-        * Returns a pointer to the first node of the reversed list.
-
-* **12. Print (safe version)**
-  * [101-print_listint_safe.c](./101-print_listint_safe.c): C function that prints
-    a `listint_t` linked list safely (ie. can free lists containing loops).
-        * Returns the number of nodes in the `listint_t` list.
-
-* **13. Free (safe version)**
-  * [102-free_listint_safe.c](./102-free_listint_safe.c): C function that frees a
-    `listint_t` linked list safely (ie. can free lists containing loops).
-        * Returns the size of the list that was freed.
-	    * Sets the `head` to `NULL`.
-
-* **14. Find the loop**
-  * [103-find_loop.c](./103-find_loop.c): C function that finds the loop contained in a
-    `listint_t` linked list using a maximum of two variables.
-        * If no loop is found - returns `NULL`.
-	    * Otherwise - returns the address of the node where the loop starts.
+* **7. Crackme3**
+  * [7-get_nodeint.c](./7-get_nodeint.c): Find the password for this program.
+   	*Save the password in the file `101-password`.
+		*Your file should contain the exact password, no new line, no extra space
 
 
 ## Tests :heavy_check_mark:
