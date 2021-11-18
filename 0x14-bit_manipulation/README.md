@@ -2,7 +2,9 @@
 
 # 0x14. C - Bit manipulation
 <div style="text-align: justify">
-In this project, you should be to practice the Bit manipulation in C with use the bitwise operators >> , << , & , | , and ^`. </div>
+	
+In this project, you should be to practice the Bit manipulation in C with use the 
+	bitwise operators  `>>`, `<<`, `&`, `|`, and `^`. </div>
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
