@@ -3,10 +3,12 @@
 # Low Level Programming
 <div style="text-align: justify">
 
-Thank you for visiting my programming projects.This repository contains programs written in C for the
-Low Level Programming curriculum at Holberton School.
+Thank you for visiting this repository which contain my programming projects written in C programming language. for the
+**Low Level Programming** curriculum at Holberton School
 
+# Getting Started :running:	
 <div style="text-align: justify">
+	
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
@@ -14,7 +16,7 @@ Low Level Programming curriculum at Holberton School.
 * [Credits](#credits)
 
 ## About
-This repository contains projects on the C programming language. The projects cover:
+The projects in this repository cover:
 - Compilation
 - Commenting code and following a coding style standard
 - Variables, types, operators, expressions, loops, nested loops
@@ -28,7 +30,7 @@ This repository contains projects on the C programming language. The projects co
 - Virtual memory, heap, stack
 - Binary operations
 
-# Getting Started :running:
+
 
 ## Requirements :page_with_curl:
 
