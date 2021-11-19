@@ -90,10 +90,6 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [0x14. C - Bit manipulation](./0x14-bit_manipulation) | Use of `bitwise operators` in C programs |								
 
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-	
 	
 ## Credits
 
