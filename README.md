@@ -95,7 +95,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 	
 ## Credits
-	
+
 ## Author(s):blue_book:
 
 Work is owned and maintained by 
