@@ -6,7 +6,7 @@
 Thank you for visiting this repository which contain my programming projects written in C programming language. for the
 **Low Level Programming** curriculum at Holberton School
 
-![C](https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687167/cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png)
+![C](https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-1024x530.png)
 	
 # Getting Started :running:	
 <div style="text-align: justify">
