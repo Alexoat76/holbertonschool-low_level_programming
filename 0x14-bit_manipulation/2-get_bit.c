@@ -10,7 +10,7 @@
  * get_bit - Gets the value of a bit at a given index.
  * @n: The bit.
  * @index: The index to get the value and start at 0.
- * Return: The value of a bit at a given index
+ * Return: The value of a bit at a given index,
  *         or -1 if an error occured.
  */
 
