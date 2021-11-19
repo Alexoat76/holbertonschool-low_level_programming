@@ -11,8 +11,8 @@ Thank you for visiting this repository which contain my programming projects wri
 	
 ## Table of Contents
 * [About](#about)
-* [Requirements](Requirements)
-* [Projects](Projects)
+* [Requirements](#requirements)
+* [Projects](#projects)
 * [Credits](#credits)
 
 ## About
