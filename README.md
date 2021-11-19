@@ -61,7 +61,7 @@ The projects in this repository cover:
 Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
 
 
-## Projects :file_folder:
+## Projects 
 
 | Project | Description |
 | :--- | :--- |
