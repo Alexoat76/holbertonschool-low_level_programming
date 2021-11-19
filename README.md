@@ -31,7 +31,7 @@ The projects in this repository cover:
 - Binary operations
 
 	
-## Requirements :page_with_curl:
+## Requirements 
 
 ### Resources
 
