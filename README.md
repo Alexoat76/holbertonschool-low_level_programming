@@ -87,19 +87,17 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [0x14. C - Bit manipulation](./0x14-bit_manipulation) | Use of `bitwise operators` in C programs |								
 
 
-
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.
 	
-
 	
 ## Credits
 
 ## Author(s):blue_book:
 
 Work is owned and maintained by 
-	**`Alex Orland Arévalo Tribaldos`**  and Credits for `group projects` are displayed in the respective README.md files.
+	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective README.md files.
 
 <3915@holbertonschool.com>
 	
