@@ -3,8 +3,8 @@
 # 0x15. C - File I/O
 <div style="text-align: justify">
 	
-In this project, you should be to practice the Bit manipulation in C with use the 
-	bitwise operators  `>>`, `<<`, `&`, `|`, and `^`. </div>
+In this project, you should be to practice to how to use `system calls` to `open`, `read`, `write`, and `close` files; how to use flags 
+	`O_RDONLY`, `O_WRONLY`, `O_RDWR`. </div>
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
@@ -17,11 +17,11 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/webhp?q=bit+manipulation+C)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://en.wikipedia.org/wiki/File_descriptor)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=bitwise+operators+in+c)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=dP3N8g7h8gY)
 
-
+**man or help** : `open`,`close`, `read`, `write`, `dprintf`.
 
 
 ## General :page_with_curl:
@@ -48,9 +48,11 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * You are not allowed to use global variables. </div>
 <div style="text-align: justify">
 * No more than 5 functions per file. </div>
-<div style="text-align: justify">
-* The only C standard library functions allowed are malloc, free and exit. Any use of functions like </div>
 
+<div style="text-align: justify">
+	
+*The only C standard library functions allowed are  `malloc`, `free` and `exit`. Any use of functions like</div>
+	
 `printf, puts, calloc, realloc etc… is forbidden`.</div>
 
 <div style="text-align: justify">
@@ -86,64 +88,70 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 <div style="text-align: justify">
 * All your header files should be include guarded. </div>
 <div style="text-align: justify">
+	
+*Tip: always prefer using symbolic constants `(POSIX)` vs numbers when it makes sense. For instance `read(STDIN_FILENO, ...` vs read(0, ...
+<div style="text-align: justify">	
+
 
 ## Header File :file_folder:
 
-* [lists.h](./lists.h): Header file containing definitions and prototypes for all types
+* [main.h](./main.h): Header file containing definitions and prototypes for all types
 and functions written for the project.
 
 | Type/File                  | Definition/Prototype                                                             |
 | -------------------------- | ---------------------------------------------------------------------------------|
-| `0-binary_to_uint.c`       | `unsigned int binary_to_uint(const char *b);`                                    |
-| `1-print_binary.c`         | `void print_binary(unsigned long int n);`                                        |
-| `2-get_bit.c`              | `int get_bit(unsigned long int n, unsigned int index);`                          |
-| `3-set_bit.c`     	     | `int set_bit(unsigned long int *n, unsigned int index);`                         |
-| `4-clear_bit.c`            | `int clear_bit(unsigned long int *n, unsigned int index);`                       |
-| `5-flip_bits.c`            | `unsigned int flip_bits(unsigned long int n, unsigned long int m);`              |
-| `100-get_endianness.c`     | `int get_endianness(void);`                                                      |
-| `101-password`             | `101-password`          																
-
+| `0-read_textfile.c`        | `ssize_t read_textfile(const char *filename, size_t letters);`                   |
+| `1-create_file.c`          | `int create_file(const char *filename, char *text_content);`                     |
+| `2-append_text_to_file.c`  | `int append_text_to_file(const char *filename, char *text_content);`             |
+	
 
 ## Tasks :page_with_curl:
 
-* **0. 0**
-  * [0-binary_to_uint.c](./0-binary_to_uint.c): Write a C function that converts a binary number 
-	to an `unsigned int`.
+* **0. Tread lightly, she is near**
+  * [0-read_textfile.c](./0-read_textfile.c): Write a C function that reads a text file and prints it to the `POSIX` standard output.
+	* Returns the actual `number of letters` it could `read` and `print`.
+	* if the file `can not` be opened or read, return `0`. 
+	* if filename is `NULL` return `0`.
+	* if write fails or does not write the expected amount of bytes, return `0`.
+
 	
-	 *Returns the converted number, or `0` if.
-	*here is one or more chars in the string `b` that is not `0` or `1`. `b` is `NULL`
+* **1. Under the snow**
+  * [1-create_file.c](./1-create_file.c): Create a C function that creates a file.
+	* where filename is the name of the file to create and text_content is a `NULL` terminated string to write to the file
+		* Returns: `1` on success, `-1` on failure (file can not be created, file can not be written, write `“fails”`, etc…)
+		* The created file must have those permissions: `rw-------`. If the file already exists, do not change the permissions.
+		* if the file already exists, `truncate` it
+		* if filename is `NULL` return `-1`.
+		* if text_content is `NULL` create an empty file.
 
-* **1. 1**
-  * [1-print_binary.c](./1-print_binary.c): Write a C function that prints the binary representation of a number.
 
+* **2. Speak gently, she can hear**
+  * [2-append_text_to_file.c](./2-append_text_to_file.c): Write a C function that appends text at the end of a file..
+	* where filename is the name of the file and text_content is the `NULL` terminated string to add at the end of the file
+	* Return: `1` on success and `-1` on failure
+	* Do not create the file if it does not exist.
+	* If filename is `NULL` return `-1`.
+	* If `text_content` is `NULL`, do not add anything to the file. Return `1` if the file exists and `-1` if the file does not exist 
+		or if you do not have the required permissions to write the file.
 
-* **2. 10**
-  * [2-get_bit.c](./2-get_bit.c): Write a C function that returns the value of a bit at a given index.
-	*where `index` is the index, starting from `0` of the bit you want to get.
-		*Returns: the value of the bit at index `index` or `-1` if an error occured.
-
-* **3. 11**
-  * [3-set_bit.c](./3-set_bit.c): Write a C function that sets the value of a bit to `1` at a given index.
-   	*where `index` is the index, starting from `0` of the bit you want to set.
-		*Returns: `1` if it worked, or `-1` if an error occurred.
-
-* **4. 100**
-  * [4-clear_bit.c](./4-clear_bit.c): Write a function that sets the value of a bit to `0` at a given index.
-    	*where `index` is the index, starting from `0` of the bit you want to set.
-		*Returns: `1` if it worked, or `-1` if an error occurred.
-
-* **5. 101**
-  * [5-flip_bits.c](./5-flip_bits.c): Write a Cfunction that returns the number of bits you would need 
-	to flip to get from one number to another.
-
-* **6. Endianness**
-  * [100-get_endianness.c](./100-get_endianness.c): Write a C function that checks the `endianness`.
-   	*Returns: `0` if big endian, `1` if little endian.
-
-* **7. Crackme3**
-  * [7-get_nodeint.c](./7-get_nodeint.c): Find the password for this program.
-   	*Save the password in the file `101-password`.
-		*Your file should contain the exact password, no new line, no extra space
+	
+* **3. cp**
+  * [3-cp.c](./3-cp.c): Write a C program that copies the content of a file to another file.
+   	* Usage: `cp file_from file_to`
+	* if the number of argument is not the correct one, exit with code `97` and print `Usage: cp file_from file_to`, followed by a new line, on the `POSIX` standard error
+	* if `file_to` already exists, `truncate` it
+	* if `file_from` does not exist, or if you can not read it, exit with code `98` and print `Error: Can't read from file NAME_OF_THE_FILE`, followed by a new line, 
+		on the `POSIX` standard error
+		* where `NAME_OF_THE_FILE` is the first argument passed to your program.
+	* if you can not create or if `write` to `file_to` fails, exit with code `99` and print `Error: Can't write to NAME_OF_THE_FILE`,
+		followed by a new line, on the `POSIX` standard error.
+		* where `NAME_OF_THE_FILE` is the second argument passed to your program.
+	* if you can not close a file descriptor , exit with code `100` and print `Error: Can't close fd FD_VALUE`, followed by a new line, 
+		on the `POSIX` standard error.
+		* where `FD_VALUE` is the value of the file descriptor.
+	* Permissions of the created file: `rw-rw-r--`. If the file already exists, do not change the permissions
+	* You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
+	* You are allowed to use `dprintf`.
 
 
 ## Tests :heavy_check_mark:
