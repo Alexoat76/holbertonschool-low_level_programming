@@ -88,7 +88,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [0x12. C - Singly linked lists](./0x12-singly_linked_lists) | Creation and traversal of `singly linked lists` in C |
 | [0x13. C - More singly linked lists](./0x13-more_singly_linked_lists) | `Node` retrieval, insertion, deletion |
 | [0x14. C - Bit manipulation](./0x14-bit_manipulation) | Use of `bitwise operators` in C programs |								
-
+| [0x15. C - File I/O](./0x15-file_io) | Use of `file descriptors`, `file permissions` and `system call` in C programs |
 
 	
 ## Credits
