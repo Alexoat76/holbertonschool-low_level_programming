@@ -99,7 +99,7 @@ and functions written for the project.
 ## Tasks :page_with_curl:
 
 * **0. Print list**
-  	* [0-print_dlistint.c](./0-print_dlinstint.c): C function that prints all the elements
+  	* [0-print_dlistint.c](./0-print_dlistint.c): C function that prints all the elements
   	of a doubly-linked `dlistint_t` list.
   		* Returns the number of nodes in the list.
 
