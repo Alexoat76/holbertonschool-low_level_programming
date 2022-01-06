@@ -83,61 +83,75 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * [lists.h](./lists.h): Header file containing definitions and prototypes for all types
 and functions written for the project.
 
-| Type/File                  | Definition/Prototype                                                             |
-| -------------------------- | ---------------------------------------------------------------------------------|
-| `0-read_textfile.c`        | `ssize_t read_textfile(const char *filename, size_t letters);`                   |
-| `1-create_file.c`          | `int create_file(const char *filename, char *text_content);`                     |
-| `2-append_text_to_file.c`  | `int append_text_to_file(const char *filename, char *text_content);`             |
-	
+| Type/File           | Definition/Prototype           |
+| ------------------- | ------------------------------ |
+| `struct dlistint_s`    | <ul><li>`int n`</li><li>`struct dlistint_s *prev`</li><li>`struct dlistint_s *new`</li></ul> |
+| `0-print_dlistint.c`   | `size_t print_dlistint(const dlistint_t *h);`                                                |
+| `1-dlistint_len.c`     | `size_t dlistint_len(const dlistint_t *h);`                                                  |
+| `2-add_dnodeint.c`  | `dlistint_t *add_dnodeint(dlistint_t **head, const int n);`                                     |
+| `3-add_dnodeint_end.c` | `dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);`                              |
+| `4-free_dlistint.c`    | `void free_dlistint(dlistint_t *head);`                                                      |
+| `5-get_dnodeint.c`     | `dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);`                   |
+| `6-sum_dlistint.c`     | `int sum_dlistint(dlistint_t *head);`                                                        |
+| `7-insert_dnodeint.c`  | `dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);`             |
+| `8-delete_dnodeint.c`  | `int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);`                       |
 
 ## Tasks :page_with_curl:
 
-* **0. Tread lightly, she is near**
-  * [0-read_textfile.c](./0-read_textfile.c): Write a C function that reads a text file and prints it to the `POSIX` standard output.
-	* Returns the actual `number of letters` it could `read` and `print`.
-	* if the file `can not` be opened or read, return `0`. 
-	* if filename is `NULL` return `0`.
-	* if write fails or does not write the expected amount of bytes, return `0`.
+* **0. Print list**
+  	* [0-print_dlistint.c](./0-print_dlinstint.c): C function that prints all the elements
+  	of a doubly-linked `dlistint_t` list.
+  		* Returns the number of nodes in the list.
 
-	
-* **1. Under the snow**
-  * [1-create_file.c](./1-create_file.c): Create a C function that creates a file.
-		* where filename is the name of the file to create and text_content is a `NULL` terminated string to write to the file
-		* Returns: `1` on success, `-1` on failure (file can not be created, file can not be written, write `“fails”`, etc…)
-		* The created file must have those permissions: `rw-------`. If the file already exists, do not change the permissions.
-		* if the file already exists, `truncate` it
-		* if filename is `NULL` return `-1`.
-		* if text_content is `NULL` create an empty file.
+* **1. List length**
+  	* [1-dlistint_len.c](./1-dlistint_len.c): C function that returns the number of nodes in
+  	a doubly-linked `dlistint_t` list.
 
+* **2. Add node**
+  	* [2-add_dnodeint.c](./2-add_dnodeint.c): C function that adds a new node at the
+  	beginning of a doubly-linked `dlistint_t` list.
+  		* If the function fails - returns `NULL`.
+  		* Otherwise - returns the address of the new element.
 
-* **2. Speak gently, she can hear**
-  * [2-append_text_to_file.c](./2-append_text_to_file.c): Write a C function that appends text at the end of a file..
-	* where filename is the name of the file and text_content is the `NULL` terminated string to add at the end of the file
-	* Return: `1` on success and `-1` on failure
-	* Do not create the file if it does not exist.
-	* If filename is `NULL` return `-1`.
-	* If `text_content` is `NULL`, do not add anything to the file. Return `1` if the file exists and `-1` if the file does not exist 
-		or if you do not have the required permissions to write the file.
+* **3. Add node at the end**
+  	* [3-add_dnodeint_end.c](./3-add_dnodeint_end.c): C function that adds a new
+  	node at the end of a doubly-linked `dlistint_t` list.
+  		* If the function fails - returns `NULL`.
+  		* Otherwise - returns the address of the new element.
 
-	
-* **3. cp**
-  * [3-cp.c](./3-cp.c): Write a C program that copies the content of a file to another file.
-   	* Usage: `cp file_from file_to`
-	* if the number of argument is not the correct one, exit with code `97` and print `Usage: cp file_from file_to`, followed by a new line, on the `POSIX` standard error
-	* if `file_to` already exists, `truncate` it
-	* if `file_from` does not exist, or if you can not read it, exit with code `98` and print `Error: Can't read from file NAME_OF_THE_FILE`, followed by a new line, 
-		on the `POSIX` standard error
-		* where `NAME_OF_THE_FILE` is the first argument passed to your program.
-	* if you can not create or if `write` to `file_to` fails, exit with code `99` and print `Error: Can't write to NAME_OF_THE_FILE`,
-		followed by a new line, on the `POSIX` standard error.
-		* where `NAME_OF_THE_FILE` is the second argument passed to your program.
-	* if you can not close a file descriptor , exit with code `100` and print `Error: Can't close fd FD_VALUE`, followed by a new line, 
-		on the `POSIX` standard error.
-		* where `FD_VALUE` is the value of the file descriptor.
-	* Permissions of the created file: `rw-rw-r--`. If the file already exists, do not change the permissions
-	* You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
-	* You are allowed to use `dprintf`.
+* **4. Free list**
+  	* [4-free_dlistint.c](./4-free_dlistint.c): C function that frees a
+  	doubly-linked `dlistint_t` list.
 
+* **5. Get node at index**
+  	* [5-get_dnodeint.c](./5-get_dnodeint.c): C function that locates a given node of a
+  	doubly-linked `dlistint_t` list.
+  		* The parameter `index` is the index of the node to locate - indices start at `0`.
+  		* If the node does not exist - returns `NULL`.
+  		* Otherwise - returns the address of the located node.
+
+* **6. Sum list**
+  	* [6-sum_dlistint.c](./6-sum_dlistint.c): C function that sums all the data (`n`)
+  	of a doubly-linked `dlistint_t` list.
+  		* If the list is empty - returns `0`.
+  		* Otherwise - returns the sum of all the data (`n`).
+
+* **7. Insert at index**
+  	* [7-insert_dnodeint.c](./7-insert_dnodeint.c): C function that inserts a new node at a
+  	given position.
+  		* The parameter `idx` is the index of the list where the new node should
+  		be added - indices start at `0`.
+  		* If the function fails - returns `NULL`.
+  		* Otherwise - returns the address of the new element.
+  		* Requires compilation with functions defined in [2-add_dnodeint.c](./2-add_dnodeint.c)
+  		and [3-add_dnodeint_end.c](./3-add_dnodeint_end.c).
+
+* **8. Delete at index**
+  	* [8-delete_dnodeint.c](./8-delete_dnodeint.c): C function that deletes the node at
+  	index `index` of a doubly-linked `dlistint_t` list.
+  		* The paramter `index` is the index of the node to delete - indices start at `0`.
+  		* If the function fails - returns `-1`.
+  		* Otherwise - returns `1`.
 
 ## Tests :heavy_check_mark:
 
