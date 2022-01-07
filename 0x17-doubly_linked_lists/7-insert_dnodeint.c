@@ -1,5 +1,6 @@
 #include "lists.h"
-#include <stdlib.h>
+#include <stddef.h>
+
 /*
  * File: 7-insert_dnodeint.c
  * Author: Alex O. Arevalo T.
@@ -8,7 +9,7 @@
 
 /**
  * insert_dnodeint_at_index - Inserts a new node in a dlistint_t
- *                          list at a given position.
+ *                            list at a given position.
  * @h: A pointer to the head of the dlistint_t list.
  * @idx: The position to insert the new node.
  * @n: The integer for the new node to contain.
