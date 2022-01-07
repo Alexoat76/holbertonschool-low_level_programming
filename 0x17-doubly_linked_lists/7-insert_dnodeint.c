@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /*
  * File: 7-insert_dnodeint.c
  * Author: Alex O. Arevalo T.
