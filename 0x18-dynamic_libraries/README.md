@@ -3,7 +3,7 @@
 # 0x18. C - Dynamic libraries
 <div style="text-align: justify">
 	
-In this project, you should be to practice to how to create `Dynamic libraries` in C language. </div>
+In this project, you should be to practice to how to create `Dynamic libraries` in C language, and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`. </div>
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
