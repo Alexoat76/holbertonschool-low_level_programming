@@ -16,11 +16,11 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=what+is+a+doubly+linked+list&oq=What+is+a+doubly+linked+list&aqs=chrome.0.0i512l5j69i61j69i60.1304j0j15&sourceid=chrome&ie=UTF-8)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi-kcza26f1AhVkRTABHTABBroQPAgI)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=KFbm6lkMhgw)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
-[What is a Doubly Linked List](https://www.youtube.com/watch?v=k0pjD12bzP0)
+[What is difference between Dynamic and Static library (Static and Dynamic linking)](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
 
 ## General :page_with_curl:
@@ -50,7 +50,11 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 <div style="text-align: justify">
 	
-*The only C standard library functions allowed are  `malloc`, `free` , `printf` and `exit`. 
+*You are not allowed to use the standard library. Any use of functions like `printf`, `puts`, etc… is forbidden. 
+
+<div style="text-align: justify">
+	
+*You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c) 
 
 <div style="text-align: justify">
 	
@@ -64,12 +68,15 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 	
 <div style="text-align: justify">
 * We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples. </div>
+
 <div style="text-align: justify">
-* The prototypes of all your functions should be included in your header file called </div>
+		
+*The prototypes of all your functions and the prototype of the function `_putchar` 
+	should be included in your header file called </div>
 
 <div style="text-align: justify"> 
 
-`lists.h` </div>
+`main.h` </div>
 
 <div style="text-align: justify">
 	
@@ -80,82 +87,60 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 	
 ## Header File :file_folder:
 
-* [lists.h](./lists.h): Header file containing definitions and prototypes for all types
+* [main.h](./main.h): Header file containing definitions and prototypes for all types
 and functions written for the project.
-
-| Type/File           | Definition/Prototype           |
-| ------------------- | ------------------------------ |
-| `struct dlistint_s`    | <ul><li>`int n`</li><li>`struct dlistint_s *prev`</li><li>`struct dlistint_s *new`</li></ul> |
-| `0-print_dlistint.c`   | `size_t print_dlistint(const dlistint_t *h);`                                                |
-| `1-dlistint_len.c`     | `size_t dlistint_len(const dlistint_t *h);`                                                  |
-| `2-add_dnodeint.c`  | `dlistint_t *add_dnodeint(dlistint_t **head, const int n);`                                     |
-| `3-add_dnodeint_end.c` | `dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);`                              |
-| `4-free_dlistint.c`    | `void free_dlistint(dlistint_t *head);`                                                      |
-| `5-get_dnodeint.c`     | `dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);`                   |
-| `6-sum_dlistint.c`     | `int sum_dlistint(dlistint_t *head);`                                                        |
-| `7-insert_dnodeint.c`  | `dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);`             |
-| `8-delete_dnodeint.c`  | `int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);`                       |
 
 ## Tasks :page_with_curl:
 
-* **0. Print list**
-  	* [0-print_dlistint.c](./0-print_dlistint.c): C function that prints all the elements
-  	of a doubly-linked `dlistint_t` list.
-  		* Returns the number of nodes in the list.
+* **0. A library is not a luxury but one of the necessities of life**
+  	* [libdynamic.so](./libdynamic.so): C dynamic library containing all the functions
+  	listed below:
+		* `int _isupper(int c);`
+		* `char *_memset(char *s, char b, unsigned int n);`
+		* `char *_strcat(char *dest, char *src);`
+		* `int _isdigit(int c);`
+		* `char *_memcpy(char *dest, char *src, unsigned int n);`
+		* `char *_strncat(char *dest, char *src, int n);`
+		* `int _atoi(char *s);`
+		* `char *_strchr(char *s, char c);`
+		* `int _strlen(char *s);`
+		* `char *_strncpy(char *dest, char *src, int n);`
+		* `int _islower(int c);`
+		* `void _puts(char *s);`
+		* `int _strcmp(char *s1, char *s2);`
+		* `unsigned int _strspn(char *s, char *accept);`
+		* `int _isalpha(int c);`
+		* `char *_strpbrk(char *s, char *accept);`
+		* `char *_strstr(char *haystack, char *needle);`
+		* `int _abs(int n);`
+		* `char *_strcpy(char *dest, char *src);`
+		* `int _putchar(char c);`
+ 
+* **1. Without libraries what have we? We have no past and no future**
+  	* [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh): Bash script that creates a
+  	dynamic library called `liball.so` from all the `.c` files in the current directory.
 
-* **1. List length**
-  	* [1-dlistint_len.c](./1-dlistint_len.c): C function that returns the number of nodes in
-  	a doubly-linked `dlistint_t` list.
+* **2. Either write something worth reading or do something worth writing**
+	* Blog post to describe the differences between static and dynamic libraries. That cover:
+	
+		* Why using libraries in general
+		* How do they work
+		* How to create them (Linux only)
+		* How to use them (Linux only)
+		* What are the differences between static and dynamic libraries
+		* What are the advantages and drawbacks of each of them
+		* The posts have examples. Published on Medium or LinkedIn.
+	
+* **3. Let's call C functions from Python**
+  	* [100-operations.so](./100-operations.so): C dynamic library containing basic C
+  	mathematical operation functions that can be called from Python.
+  	* Includes:
+    	* `int add(int a, int b);`
+    	* `int sub(int a, int b);`
+    	* `int mul(int a, int b);`
+    	* `int div(int a, int b);`
+    	* `int mod(int a, int b);`
 
-* **2. Add node**
-  	* [2-add_dnodeint.c](./2-add_dnodeint.c): C function that adds a new node at the
-  	beginning of a doubly-linked `dlistint_t` list.
-  		* If the function fails - returns `NULL`.
-  		* Otherwise - returns the address of the new element.
-
-* **3. Add node at the end**
-  	* [3-add_dnodeint_end.c](./3-add_dnodeint_end.c): C function that adds a new
-  	node at the end of a doubly-linked `dlistint_t` list.
-  		* If the function fails - returns `NULL`.
-  		* Otherwise - returns the address of the new element.
-
-* **4. Free list**
-  	* [4-free_dlistint.c](./4-free_dlistint.c): C function that frees a
-  	doubly-linked `dlistint_t` list.
-
-* **5. Get node at index**
-  	* [5-get_dnodeint.c](./5-get_dnodeint.c): C function that locates a given node of a
-  	doubly-linked `dlistint_t` list.
-  		* The parameter `index` is the index of the node to locate - indices start at `0`.
-  		* If the node does not exist - returns `NULL`.
-  		* Otherwise - returns the address of the located node.
-
-* **6. Sum list**
-  	* [6-sum_dlistint.c](./6-sum_dlistint.c): C function that sums all the data (`n`)
-  	of a doubly-linked `dlistint_t` list.
-  		* If the list is empty - returns `0`.
-  		* Otherwise - returns the sum of all the data (`n`).
-
-* **7. Insert at index**
-  	* [7-insert_dnodeint.c](./7-insert_dnodeint.c): C function that inserts a new node at a
-  	given position.
-  		* The parameter `idx` is the index of the list where the new node should
-  		be added - indices start at `0`.
-  		* If the function fails - returns `NULL`.
-  		* Otherwise - returns the address of the new element.
-  		* Requires compilation with functions defined in [2-add_dnodeint.c](./2-add_dnodeint.c)
-  		and [3-add_dnodeint_end.c](./3-add_dnodeint_end.c).
-
-* **8. Delete at index**
-  	* [8-delete_dnodeint.c](./8-delete_dnodeint.c): C function that deletes the node at
-  	index `index` of a doubly-linked `dlistint_t` list.
-  		* The paramter `index` is the index of the node to delete - indices start at `0`.
-  		* If the function fails - returns `-1`.
-  		* Otherwise - returns `1`.
-
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
 	
 ## Credits
 
