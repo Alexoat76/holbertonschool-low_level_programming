@@ -10,7 +10,7 @@
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  * Desc: Header file containing prototypes for all functions
- *       in the 0x14. C - Bit manipulation directory.
+ *       in the 0x17. C - Doubly linked lists.
  */
 
 /**
@@ -28,6 +28,7 @@ typedef struct dlistint_s
 	struct dlistint_s *prev;
 	struct dlistint_s *next;
 
+	
 } dlistint_t;
 
 /* Prototypes to used for the project. */
