@@ -141,6 +141,9 @@ and functions written for the project.
     	* `int div(int a, int b);`
     	* `int mod(int a, int b);`
 
+## Tests :heavy_check_mark:
+
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 	
 ## Credits
 
