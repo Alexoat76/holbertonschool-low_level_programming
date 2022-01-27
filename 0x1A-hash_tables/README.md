@@ -28,9 +28,15 @@ Don't forget to fully meet the following development requirements. </div>
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=KFbm6lkMhgw)
 
-[What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://www.youtube.com/watch?v=MfhjkfocRR0)
-[Hash function](https://en.wikipedia.org/wiki/Hash_function)
-[Hash table](https://en.wikipedia.org/wiki/Hash_table)
+<div style="text-align: justify">
+	
+[What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://www.youtube.com/watch?v=MfhjkfocRR0)</div>
+<div style="text-align: justify">
+	
+[Hash function](https://en.wikipedia.org/wiki/Hash_function)</div>
+<div style="text-align: justify">
+	
+[Hash table](https://en.wikipedia.org/wiki/Hash_table)</div>
 
 ## General :page_with_curl:
 <div style="text-align: justify">
@@ -59,22 +65,10 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 <div style="text-align: justify">
 	
-*The only C standard library functions allowed are  `malloc`, `free` , `printf` and `exit`. 
+*You are allowed to use the C standard library. 
 
 <div style="text-align: justify">
-	
-*In the following examples,the `main.c` files are shown as examples. </div>
-
-<div style="text-align: justify">
-* You can use them to test your functions, but you don’t have to push them to
-	<div style="text-align: justify">
-		
-   your repo ( *if you do we won’t take them into account* ).</div>
-	
-<div style="text-align: justify">
-* We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples. </div>
-<div style="text-align: justify">
-* The prototypes of all your functions should be included in your header file called </div>
+*The prototypes of all your functions should be included in your header file called </div>
 
 <div style="text-align: justify"> 
 
@@ -87,15 +81,63 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * All your header files should be include guarded. </div>
 <div style="text-align: justify">
 	
-## Header File :file_folder:
+## Files :file_folder:
 
 * [hash_tables.h](hash_tables.h): Header file containing definitions and prototypes for all types
 and functions written for the project.
+
+| File | Prototype |
+| --- | --- |
+| `0-hash_table_create.c` | `hash_table_t *hash_table_create(unsigned long int size);` |
+| `1-djb2.c` | `unsigned long int hash_djb2(const unsigned char *str);` |
+| `2-key_index.c` | `unsigned long int key_index(const unsigned char *key, unsigned long int size);` |
+| `3-hash_table_set.c` | `int hash_table_set(hash_table_t *ht, const char *key, const char *value);` |
+| `4-hash_table_get.c` | `char *hash_table_get(const hash_table_t *ht, const char *key);` |
+| `5-hash_table_print.c` | `void hash_table_print(const hash_table_t *ht);` |
+| `6-hash_table_delete.c` | `void hash_table_delete(hash_table_t *ht);` |
 
 
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.
+
+	
+## Tasks :page_with_curl:
+
+* **0. >>> ht = {}**
+  	* [0-hash_table_create.c](./0-hash_table_create.c): C function that creates a `hash_table_t`
+  	hash table.
+    		* If the function fails - returns `NULL`.
+    		* Otherwise - returns a pointer to the new hash table.
+
+* **1. djb2**
+  	* [1-djb2.c](./1-djb2.c): C function that implements the djb2 hashing algorithm.
+
+* **2. key -> index**
+  	* [2-key_index.c](./2-key_index.c): C function that returns the index at which a key/value
+  	pair should be stored in the array of a `hash_table_t` hash table.
+
+* **3. >>> ht['betty'] = 'cool'**
+  	* [3-hash_table_set.c](./3-hash_table_set.c): C function that adds an element to a
+  	`hash_table_t` table.
+    		* The parameter `key` cannot be an empty string.
+    		* Returns `1` on success, `0` otherwise.
+
+* **4. >>> ht['betty']**
+  	* [4-hash_table_get.c](./4-hash_table_get.c): C function that retrieves a value associated
+  	with a key in a `hash_table_t` hash table.
+    		* If `key` cannot be matched - returns `NULL`.
+    		* Otherwise - returns the value associated with `key`.
+
+* **5. >>> print(ht)**
+  	* [5-hash_table_print.c](./5-hash_table_print.c): C function that prints a `hash_table_t`
+  	hash table.
+    		* Prints each `key`/`value` pair in the order they appear in the array of the hash table.
+    		* Does not print anything if the hash table is `NULL`.
+
+* **6. >>> del ht**
+  	* [6-hash_table_delete.c](./6-hasb_table_delete.c): C function that deletes a
+  	`hash_table_t` hash table.
 	
 ## Credits
 
