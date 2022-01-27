@@ -88,6 +88,8 @@ and functions written for the project.
 
 | File | Prototype |
 | --- | --- |
+| `struct hash_node_s` | <ul><li>`char *key`</li><li>`char *value`</li><li>`struct hash_node_s *next`</li></ul>  |
+| `struct hash_table_s` | <ul><li>`unsigned long int size`</li><li>`hash_node_t **array`</li></ul>  |
 | `0-hash_table_create.c` | `hash_table_t *hash_table_create(unsigned long int size);` |
 | `1-djb2.c` | `unsigned long int hash_djb2(const unsigned char *str);` |
 | `2-key_index.c` | `unsigned long int key_index(const unsigned char *key, unsigned long int size);` |
