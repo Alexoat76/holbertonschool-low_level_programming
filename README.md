@@ -89,7 +89,8 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [0x15. C - File I/O](./0x15-file_io) | Use of `file descriptors`, `file permissions` and `system call` in C programs |
 | [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists) | Creation and traversal of doubly linked lists in C |
 | [0x18. C - Dynamic libraries](./0x18-dynamic_libraries) | Create and Applications of dynamic libraries |
-	
+| [0x1A. C - Hash tables](./0x1A-hash_tables) | Implementation of hash tables with `djb2 algorithm` |
+
 ## Credits
 
 ## Author(s):blue_book:
