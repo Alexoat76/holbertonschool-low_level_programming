@@ -11,6 +11,13 @@ Don't forget to fully meet the following development requirements. </div>
 
 # Getting Started :running:
 
+## Table of Contents :clipboard:
+
+* [Requirements](#requirements)
+* [Files](#files-heavy_check_mark)
+* [Tasks](#tasks-page_with_curl)
+* [Credits](#credits)
+
 ## Requirements :page_with_curl:
 
 ### Resources
