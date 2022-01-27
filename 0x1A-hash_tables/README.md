@@ -14,7 +14,7 @@ Don't forget to fully meet the following development requirements. </div>
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements-page_with_curl)
-* [Files](#files-heavy_check_mark)
+* [Files](#files-file_folder)
 * [Tasks](#tasks-page_with_curl)
 * [Credits](#credits)
 
