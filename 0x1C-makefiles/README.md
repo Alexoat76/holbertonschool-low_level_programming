@@ -56,6 +56,13 @@ Read or watch :
 ### Files to use.
 In the tasks, is necessary to **[these files](https://github.com/holbertonschool/0x1B.c)**
  . Compile these only.
+	
+### Installation. :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-low_level_programming.git`	
+- Access to directory: `cd 0x1C-makefiles.`
+- `Compile` accord to `instructions` of each task.
+	
 ## Tasks
 + [x] 0\. **make -f 0-Makefile** 
 + **[0-Makefile](0-Makefile)**<br/>
