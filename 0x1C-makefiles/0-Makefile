@@ -1,0 +1,7 @@
+# File: 0-Makefile
+# Author: Alex O. Arevalo T.
+# email: 3915@holbertonschool.com
+
+# Make all == makes executable
+all:
+	gcc school.c main.c -o school
