@@ -1,0 +1,26 @@
+# File: 3-Makefile
+# Author: Alex O. Arevalo T.
+# email: 3915@holbertonschool.com
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+
+# Make all == makes executable
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Deletes tmp files & executable
+clean:
+	$(RM) *~ $(NAME)
+
+# Deletes object files
+oclean:
+	$(RM) $(OBJ)
+
+# Deletes all (tmp files, executable, & obj files)
+fclean: clean oclean
+
+# Deletes all & recompiles all source files
+re: oclean all
