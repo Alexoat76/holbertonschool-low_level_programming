@@ -3,8 +3,9 @@
 # Author: Alex Orland Arévalo Tribaldos
 # email: <3915@holbertonschool.com>
 
-!/usr/bin/python3
-"""This Module Defines an island perimeter measuring function."""
+"""
+This Module Defines an island perimeter measuring function.
+"""
 
 
 def island_perimeter(grid):
