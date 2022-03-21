@@ -9,7 +9,7 @@
 
 # 0x1C. C - Makefiles
 
-Each file in this project holds code that illustrates an `essential concept` of programming, specific to make to `Makefiles` in Unix, with a focus on `C language` projects.
+Each file in this project holds code that illustrates an **`essential concept`** of programming, specific to make to **`Makefiles`** in Unix, with a focus on **`C language`** projects.
 
 <p align="center">
   <img width="500"
@@ -54,7 +54,7 @@ Read or watch :
       
 ## More Info
 ### Files to use.
-In the tasks, is necessary to [these files](https://github.com/holbertonschool/0x1B.c) 
+In the tasks, is necessary to **[these files](https://github.com/holbertonschool/0x1B.c)**
  . Compile these only.
 ## Tasks
 + [x] 0\. make -f 0-Makefile <br/>_**[0-Makefile](0-Makefile)**_ Requirements:
