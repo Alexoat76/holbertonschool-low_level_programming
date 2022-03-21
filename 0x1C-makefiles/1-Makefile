@@ -1,0 +1,9 @@
+# File: 1-Makefile
+# Author: Alex O. Arevalo T.
+# email: 3915@holbertonschool.com
+CC = gcc
+SRC = main.c school.c
+
+# Make all == makes executable
+all:
+	$(CC) $(SRC) -o school
