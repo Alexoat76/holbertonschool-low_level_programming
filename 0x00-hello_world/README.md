@@ -53,7 +53,8 @@ Read or watch:
  (Look at only after you finish consuming the other resources)
 - [Linus Torvalds on C vs. C++](https://intranet.hbtn.io/rltoken/8rYFkn82I0QlSygvC0u2Jw) 
  (Look at only after you finish consuming the other resources)
-man or help :
+	
+**man or help :**
 *  `gcc` 
 *  `printf (3)` 
 *  `puts` 
@@ -69,8 +70,8 @@ man or help :
 - A `README.md` file, at the root of the folder of this project, containing a description of the project.
 - There should be no errors and no warnings during compilation.
 - You are not allowed to use `system`.
-- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) 
- and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl). 
+- Your code should use the `Betty` style. It will be checked using **[betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl)** 
+ and **[betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)**. 
 
 ### Shell Scripts
 - Allowed editors: `vi`, `vim`, `emacs`.
@@ -82,9 +83,9 @@ man or help :
 ## More Info
 ### Betty linter
 To run the Betty linter just with command `betty <filename>`:
-- Go to the [Betty](https://intranet.hbtn.io/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ) 
+- Go to the **[Betty](https://intranet.hbtn.io/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ)** 
  repository.
-- Clone the [repo](https://intranet.hbtn.io/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ) 
+- Clone the **[repo](https://intranet.hbtn.io/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ)** 
  to your local machine.
 - `cd` into the Betty directory.
 - Install the linter with `sudo ./install.sh` 
@@ -117,13 +118,24 @@ done
 * Move the `betty` file into `/bin/` directory or somewhere else in your `$PATH` with `sudo mv betty /bin/` 
 You can now type `betty <filename>` to run the Betty linter!
 
-### Installation. :computer:
+### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holbertonschool-low_level_programming.git`	
 - Access to directory: `cd 0x00-hello_world`
 - `Compile` accord to `instructions` of each task.
-	
 
+## Files :file_folder:	
+	
+### Tests :heavy_check_mark:
+
++ **[tests](./tests)**: Folder of test files. Provided by Holberton School.
+	
+### Executables :heavy_check_mark:
+
++ **[executables](./executables)**: Folder of `executables` files. Result of successful compilation and execution of prototype functions for tasks and main files for testing.
+	
+---
+	
 ## Tasks
 
 + [x] 0\. **Preprocessor**
@@ -332,9 +344,10 @@ $
 	* Publish your blog post on Medium or LinkedIn.
 	* Share your blog post at least on LinkedIn.
 
- Task URLs 
-#### Add URLs here:
-	[What happens when you type gcc main.c](https://atnovatio.blogspot.com/2021/10/what-happens-when-you-type-gcc-mainc.html)
+
+#### URLs here:
+	
++ **[What happens when you type gcc main.c](https://atnovatio.blogspot.com/2021/10/what-happens-when-you-type-gcc-mainc.html)**
 
 ---
 
@@ -379,7 +392,7 @@ $
 
 + [x] 9\. **UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
 
-+ [101-quote.c](./101-quote.c)
++ **[101-quote.c](./101-quote.c)**
 
 * `C program` that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, 
 	followed by a new line, to the standard error.
