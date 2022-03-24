@@ -3,8 +3,10 @@
 <img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
 <img src="https://img.shields.io/badge/Emacs-purple.svg"/>
 <img src="https://img.shields.io/badge/C-blue.svg"/>
+<img src="https://img.shields.io/badge/Betty-darkred.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
 </p>
+
 
 ---
 
