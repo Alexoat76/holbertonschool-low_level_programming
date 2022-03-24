@@ -1,7 +1,46 @@
-# 0x01. C - Variables, if, else, while
+<p align="center">
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/C-blue.svg"/>
+<img src="https://img.shields.io/badge/Betty-darkred.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
+</p>
 
-## Resources
-Read or watch :
+---
+
+# 0x01. C - Variables, if, else, while.
+
+In this project, you learn about using **`arithmetic`**, **`logical`**, **`relational`**, and **`boolean`** operators in C. Additionally, you practice **`declaring`** and **`defining`** variables of type `char`, `int`, and `unsigned int`, using `if` and `if...else` statements, and implementing `while loops`.
+
+<p align="center">
+  <img width="450"  
+        src="https://www.2braces.com/images/controlstatement.png"
+  >
+</p>
+
+
+# Getting Started :running:	
+<div style="text-align: justify">
+	
+## Table of Contents
+* [About](#about)
+* [Resources](#resources-books)
+* [Requirements](#requirements)
+* [Tasks](#tasks)
+* [Credits](#credits)
+
+## About
+	
+The project contains some tasks for learning about the basics of **`control statement`** in **`C programming language`**.
+		
+## Resources :books:
+Read or watch:
+	
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=C+language+Variables%2C+if%2C+else%2C+while&ei=EPw8YoaoCpuHwbkP8PO4kA8&ved=0ahUKEwiG8Lbp8N_2AhWbQzABHfA5DvIQ4dUDCA4&uact=5&oq=C+language+Variables%2C+if%2C+else%2C+while&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAghEApKBAhBGABKBAhGGABQpCJYhzJg_kZoAXABeACAAdYCiAHZDpIBBzAuNy4yLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz)
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=C+language+Variables%2C+if%2C+else%2C+while)	
+
 - [Everything you need to know to start with C.pdf](https://intranet.hbtn.io/rltoken/GB1UNodFfec0AXUfmSxsLA) 
  (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
 - [Keywords and identifiers](https://intranet.hbtn.io/rltoken/ckqC9BrBcMmv-DLmBauaWQ) 
@@ -18,7 +57,6 @@ Read or watch :
 
 - `ascii` (You do not need to learn about `scanf`, `getc`, `getchar`, `EOF`, `EXIT_SUCCESS`, `time`, `rand`, `srand`, `RAND_MAX`, `for` loops, `do...while` loops, functions.)
 
-
 ## Requirements
 ### General
 
@@ -31,6 +69,22 @@ Read or watch :
 - Your code should use the `Betty` style. It will be checked using **[betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl)** 
  and **[betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)** 
 
+## More Info
+	
+### Installation :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-low_level_programming.git`	
+- Access to directory: `cd 0x01-variables_if_else_while`
+- `Compile` accord to `instructions` of each task.	
+
+## Files :file_folder:	
+	
+### Executables :heavy_check_mark:
+
++ **[executables](./executables)**: Folder of `executables` files. Result of successful compilation and execution of functions for tasks.
+	
+---	
+	
 ## Tasks
 
 + [x] 0\. **Positive anything is better than negative nothing**.
@@ -275,8 +329,14 @@ $
 ```bash
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-print_comb4.c -o 101-print_comb4
 julien@ubuntu:~/0x01$ ./101-print_comb4
-012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
-julien@ubuntu:~/0x01$ 
+012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 
+038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 
+125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 
+159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 
+257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 
+368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 
+579, 589, 678, 679, 689, 789
+$ 
 
 ```
 ---
@@ -306,3 +366,26 @@ $ ./102-print_comb5
 94 97, 94 98, 94 99, 95 96, 95 97, 95 98, 95 99, 96 97, 96 98, 96 99, 97 98, 97 99, 98 99
 ```
 ---
+
+## Credits
+
+## Author(s):blue_book:
+
+Work is owned and maintained by 
+	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective `README.md` files.
+
+<3915@holbertonschool.com>
+	
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
+[![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
+
+## Acknowledgments :mega: 
+
+### **`Holberton School`** (*providing guidance*)
+	
+This program was written as part of the curriculum for Holberton School.
+Holberton School is a campus-based full-stack software engineering program
+that prepares students for careers in the tech industry using project-based
+peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
