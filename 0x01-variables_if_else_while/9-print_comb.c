@@ -9,8 +9,8 @@
 #include <stdio.h>
 
 /**
-* main - Prints all possible combinations of single-digit numbers.
-* starting from 0
+* main - Prints all possible combinations of single-digit numbers
+*        starting from 0.
 * Return: Always 0.
 */
 
