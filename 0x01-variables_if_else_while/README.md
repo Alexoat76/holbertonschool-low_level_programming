@@ -343,7 +343,7 @@ $
 
 + [x] 12\. **Software is eating the World**.
 
-+ **[102-print_comb5](./102-print_comb5)**
++ **[102-print_comb5.c](./102-print_comb5.c)**
 
 * Program that prints all possible combinations of two two-digit numbers.
 	* The numbers should range from `0` to `99`.
