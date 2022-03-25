@@ -10,7 +10,7 @@
 
 /**
 * main - Prints all the numbers of base 16 in lowercase
-* starting from 0
+*        starting from 0.
 * Return: Always 0.
 */
 
