@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in lowercase and uppercase.
+* main - Prints the alphabet in lowercase and uppercase
 * Return: Always 0.
 */
 
