@@ -313,7 +313,7 @@ $
 
 + [x] 11\. **The success combination in business is: Do what you do better... and: do more of what you do...**
 
-+ **[101-print_comb4](./101-print_comb4)**
++ **[101-print_comb4.c](./101-print_comb4.c)**
 
 * Program that prints all possible different combinations of three digits.
 	* Numbers must be separated by `,` , followed by a space.
