@@ -9,8 +9,8 @@
 #include <stdio.h>
 
 /**
-* main - Prints all single digit numbers of 
-* base 10 starting from.
+* main - Prints all single digit numbers of
+*        base 10 starting from
 * Return: Always 0.
 */
 
