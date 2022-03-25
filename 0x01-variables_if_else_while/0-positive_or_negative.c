@@ -10,7 +10,7 @@
 
 /**
 * main - Prints a random number when the number stored in the variable n
-* is positive or negative, or zero.
+*        is positive or negative, or zero.
 * Return: Always 0.
 */
 
