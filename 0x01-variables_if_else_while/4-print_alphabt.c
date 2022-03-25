@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in lowercase but except q and e
+* main - Prints the alphabet in lowercase but except q and e.
 * Return: Always 0.
 */
 
