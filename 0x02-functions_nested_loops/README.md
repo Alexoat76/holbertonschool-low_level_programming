@@ -11,7 +11,7 @@
 
 # 0x02. C - Functions, nested loops
 
-In this project, you learn about nested loops, header files, and variable scope in C while practicing declaring and defining my own functions.
+In this project, you learn about `nested loops`, `header files`, and variable scope in `C language`.
 
 <p align="center">
   <img width="200"  
