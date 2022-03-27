@@ -103,7 +103,7 @@ prototypes for all types and functions written for the project.
 	
 ## Helper File :heavy_check_mark:
 
-+ **[_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)**.
++ **[_putchar](https://github.com/Alexoat76/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/_putchar.c)**.
 	
 ### Executables :heavy_check_mark:
 
