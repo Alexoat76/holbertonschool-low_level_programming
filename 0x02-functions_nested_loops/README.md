@@ -11,6 +11,7 @@
 
 # 0x02. C - Functions, nested loops
 
+In this project, you learn about nested loops, header files, and variable scope in C while practicing declaring and defining my own functions.
 
 <p align="center">
   <img width="200"  
@@ -26,12 +27,13 @@
 * [About](#about)
 * [Resources](#resources-books)
 * [Requirements](#requirements)
+* [Files](#files-file_folder)
 * [Tasks](#tasks)
 * [Credits](#credits)
 
 ## About
 	
-The project contains some tasks for learning about the basics of **`control statement`** in **`C programming language`**.
+The project contains some tasks for learning about the basics of **`nested loops`** and **`header files`** in **`C programming language`**.
 		
 ## Resources :books:
 Read or watch:
@@ -103,7 +105,7 @@ prototypes for all types and functions written for the project.
 	
 ## Helper File :heavy_check_mark:
 
-+ **[_putchar](https://github.com/Alexoat76/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/_putchar.c)**.
++ **[_putchar](https://github.com/Alexoat76/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/_putchar.c)**: C function that writes a character to `stdout`.
 	
 ### Executables :heavy_check_mark:
 
