@@ -74,11 +74,36 @@ Read or watch:
 - Access to directory: `cd 0x02-functions_nested_loops`
 - `Compile` accord to `instructions` of each task.	
 
-## Files :file_folder:	
+## Files :file_folder:
+
++ **[main.h](./main.h)**: Header file containing definitions and
+prototypes for all types and functions written for the project.
+	
+**Function Prototypes**
+
+| File                             | Prototype                                                                                        |
+| -------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `1-alphabet.c`            	   | `void print_alphabet(void);`                                                 		      |
+| `2-print_alphabet_x10.c`         | `void print_alphabet_x10(void);`                                                                 |
+| `3-islower.c`                    | `int _islower(int c);`                                                                           |
+| `4-isalpha.c`                    | `int _isalpha(int c);`                                                                           |
+| `5-sign.c`                       | `int print_sign(int n);`                                                                         |
+| `6-abs.c`                        | `int _abs(int);`                                                                                 |
+| `7-print_last_digit.c`           | `int print_last_digit(int);`                                                                     |
+| `8-24_hours.c`                   | `void jack_bauer(void);`                                                                         |
+| `9-times_table.c`                | `void times_table(void);`                                                                        |
+| `10-add.c`                       | `int add(int, int);`                                                                             |
+| `11-print_to_98.c`               | `void print_to_98(int n);`                                                                       |
+| `100-times_table.c`              | `void print_times_table(int n);`                                                                 |
+
 	
 ### Tests :heavy_check_mark:
 
 + **[tests](./tests)**: Folder of test files. Provided by Holberton School.
+	
+## Helper File :heavy_check_mark:
+
++ **[_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)**.
 	
 ### Executables :heavy_check_mark:
 
