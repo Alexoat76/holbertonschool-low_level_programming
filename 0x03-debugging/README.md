@@ -9,13 +9,13 @@
 
 ---
 
-# 0x02. C - Functions, nested loops
+# 0x03. C - Debugging
 
-In this project, you learn about `nested loops`, `header files`, and variable scope in `C language`.
+In this project, you learn about `debugging` in `C language`.
 
 <p align="center">
-  <img width="200"  
-        src="https://thumbs.gfycat.com/MindlessSelfassuredHornbill-size_restricted.gif"
+  <img width="400"  
+        src="https://c.tenor.com/zKHDose_0kYAAAAM/code-debugging.gif"
   >
 </p>
 
@@ -33,7 +33,7 @@ In this project, you learn about `nested loops`, `header files`, and variable sc
 
 ## About
 	
-The project contains some tasks for learning about the basics of **`nested loops`** and **`header files`** in **`C programming language`**.
+The project contains some tasks for learning about the basics of **`debugging`** in **`C programming language`**.
 		
 ## Resources :books:
 Read or watch:
