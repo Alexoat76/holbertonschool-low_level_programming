@@ -80,6 +80,10 @@ prototypes for all types and functions written for the project.
 
 + **[tests](./tests)**: Folder of test files. Provided by Holberton School.
 	
+## Helper File :heavy_check_mark:
+	
++ **[helper_files](./helper_files)**: Folder that contains helper files for develop some tasks of the project.
+	
 ### Executables :heavy_check_mark:
 
 + **[executables](./executables)**: Folder of `executables` files. Result of successful compilation and execution of functions for tasks.
