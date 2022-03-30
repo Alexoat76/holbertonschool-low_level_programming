@@ -1,7 +1,40 @@
+<p align="center">
+<img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
+<img src="https://img.shields.io/badge/Shell-ligthgreen.svg"/>
+<img src="https://img.shields.io/badge/Emacs-purple.svg"/>
+<img src="https://img.shields.io/badge/C-blue.svg"/>
+<img src="https://img.shields.io/badge/Betty-darkred.svg"/>
+<img src="https://img.shields.io/badge/Markdown-black.svg"/><br>	
+</p>
+
+---
+
 # 0x04. C - More functions, more nested loops
 
-## Resources
-Read or watch :
+In this project, you continue to learn about using **`nested loops`** and writing functions in `C language`.
+
+# Getting Started :running:	
+<div style="text-align: justify">
+	
+## Table of Contents
+* [About](#about)
+* [Resources](#resources-books)
+* [Requirements](#requirements)
+* [Files](#files-file_folder)
+* [Tasks](#tasks)
+* [Credits](#credits)
+
+## About
+	
+The project contains some tasks for learning about using **`nested loops`** and writing functions in **`C`**.
+		
+## Resources :books:
+Read or watch:
+	
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)]()
+
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)]()
+	
 - [Nested while loops](https://intranet.hbtn.io/rltoken/3WXPpZkwBEt_9MOlayYGWw) 
 - [C - Functions](https://intranet.hbtn.io/rltoken/ES8eagOrYppE4qSjaa4zQA) 
 - [Learning to Program in C (Part 06)](https://intranet.hbtn.io/rltoken/X8cL-h23A-vdFyuRmomKQQ) 
@@ -31,6 +64,40 @@ Read or watch :
 
 ## More Info
 Do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
+
+### Installation :computer:
+	
+- Clone this repository: `https://github.com/Alexoat76/holbertonschool-low_level_programming.git`	
+- Access to directory: `cd 0x04-more_functions_nested_loops`
+- `Compile` accord to `instructions` of each task.	
+
+## Files :file_folder:
+
++ **[main.h](./main.h)**: Header file containing definitions and
+prototypes for all types and functions written for the project.
+	
+| File                     | Prototype                        |
+| ------------------------ | -------------------------------- |
+| `0-isupper.c`            | `int _isupper(int c);`           |
+| `1-isdigit.c`            | `int _isdigit(int c);`           |
+| `2-mul.c`                | `int mul(int a, int b);`         |
+| `3-print_numbers.c`      | `void print_numbers(void);`      |
+| `4-print_most_numbers.c` | `void print_most_numbers(void);` |
+| `5-more_numbers.c`       | `void more_numbers(void);`       |
+| `6-print_line.c`         | `void print_line(int n);`        |
+| `7-print_diagonal.c`     | `void print_diagonal(int n);`    |
+| `8-print_square.c`       | `void print_square(int size);`   |
+| `10-print_triangle.c`    | `void print_triangle(int size);` |
+	
+### Tests :heavy_check_mark:
+
++ **[tests](./tests)**: Folder of test files. Provided by Holberton School.
+		
+### Executables :heavy_check_mark:
+
++ **[executables](./executables)**: Folder of `executables` files. Result of successful compilation and execution of functions for tasks.
+	
+---
 
 ## Tasks
 + [x] 0\. **isupper**
@@ -315,6 +382,8 @@ $
 	* Your program will be compiled with this command: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 
 	100-prime_factor.c -o 100-prime_factor -lm` 
 
+---
+
 + [x] 12\. **Numbers have life; they're not just symbols on paper**
 
 + **[101-print_number.c](./101-print_number.c)**
@@ -337,3 +406,25 @@ $ ./101-print_numbers
 $ 
 ```
 ---
+## Credits
+
+## Author(s):blue_book:
+
+Work is owned and maintained by 
+	**`Alex Orland Arévalo Tribaldos`**  and credits for `group projects` are displayed in the respective `README.md` files.
+
+<3915@holbertonschool.com>
+	
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
+[![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/aoarevalot)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
+
+## Acknowledgments :mega: 
+
+### **`Holberton School`** (*providing guidance*)
+	
+This program was written as part of the curriculum for Holberton School.
+Holberton School is a campus-based full-stack software engineering program
+that prepares students for careers in the tech industry using project-based
+peer learning. For more information,  please visit [this link](https://www.holbertonschool.com/).
+![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
