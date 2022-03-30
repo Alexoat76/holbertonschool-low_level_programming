@@ -13,6 +13,13 @@
 
 In this project, you continue to learn about using **`nested loops`** and writing functions in `C language`.
 
+<p align="center">
+  <img width="200"  
+        src="https://thumbs.gfycat.com/DistantGreenGrayling.webp"
+  >
+</p>
+
+
 # Getting Started :running:	
 <div style="text-align: justify">
 	
@@ -26,14 +33,14 @@ In this project, you continue to learn about using **`nested loops`** and writin
 
 ## About
 	
-The project contains some tasks for learning about using **`nested loops`** and writing functions in **`C`**.
+The project contains some tasks for continue learning about using **`nested loops`** and writing functions in **`C`**.
 		
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)]()
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=nested+loop+in+c&ei=aFs_YombNNGKwbkP_Y-iEA&ved=0ahUKEwiJ77KEtOT2AhVRRTABHf2HCAIQ4dUDCA4&uact=5&oq=nested+loop+in+c&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEENKBAhBGABKBAhGGABQAFgAYLkZaAJwAXgAgAEAiAEAkgEAmAEAyAEKwAEB&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)]()
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=nested+loop+in+c)
 	
 - [Nested while loops](https://intranet.hbtn.io/rltoken/3WXPpZkwBEt_9MOlayYGWw) 
 - [C - Functions](https://intranet.hbtn.io/rltoken/ES8eagOrYppE4qSjaa4zQA) 
