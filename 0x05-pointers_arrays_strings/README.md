@@ -15,7 +15,7 @@ In this project, you learn about **what are** and **how to use** `pointers` and 
 	how to use and manipulate `strings` in `C language`.
 
 <p align="center">
-  <img width="200"  
+  <img width="275"  
         src="https://www.freecodecamp.org/news/content/images/2020/08/456d4568d6e2c00e377b9dfae76e1809.gif"
   >
 </p>
@@ -79,9 +79,19 @@ Do not need to learn about pointers to functions, pointers to pointers, multidim
 + **[main.h](./main.h)**: Header file containing definitions and
 prototypes for all types and functions written for the project.
 	
-| File                     | Prototype                        |
-| ------------------------ | -------------------------------- |
-
+| File              | Prototype                               |
+| ----------------- | --------------------------------------- |
+| `0-reset_to_98.c` | `void reset_to_98(int *n);`             |
+| `1-swap.c`        | `void swap_int(int *a, int *b);`        |
+| `2-strlen.c`      | `int _strlen(char *s);`                 |
+| `3-puts.c`        | `void _puts(char *str);`                |
+| `4-print_rev.c`   | `void print_rev(char *s);`              |
+| `5-rev_string.c`  | `void rev_string(char *s);`             |
+| `6-puts2.c`       | `void puts2(char *str);`                |
+| `7-puts_half.c`   | `void puts_half(char *str);`            |
+| `8-print_array.c` | `void print_array(int *a, int n);`      |
+| `9-strcpy.c`      | `char *_strcpy(char *dest, char *src);` |
+| `100-atoi.c`      | `int _atoi(char *s);`                   |
 	
 ### Tests :heavy_check_mark:
 
