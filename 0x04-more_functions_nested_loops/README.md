@@ -19,7 +19,6 @@ In this project, you continue to learn about using **`nested loops`** and writin
   >
 </p>
 
-
 # Getting Started :running:	
 <div style="text-align: justify">
 	
@@ -95,6 +94,7 @@ prototypes for all types and functions written for the project.
 | `7-print_diagonal.c`     | `void print_diagonal(int n);`    |
 | `8-print_square.c`       | `void print_square(int size);`   |
 | `10-print_triangle.c`    | `void print_triangle(int size);` |
+| `101-print_number.c`     | `void print_number(int n);`      |
 	
 ### Tests :heavy_check_mark:
 
