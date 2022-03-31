@@ -35,9 +35,10 @@ The project contains some tasks for learning about `Pointers`, `arrays` and `str
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=nested+loop+in+c&ei=aFs_YombNNGKwbkP_Y-iEA&ved=0ahUKEwiJ77KEtOT2AhVRRTABHf2HCAIQ4dUDCA4&uact=5&oq=nested+loop+in+c&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEENKBAhBGABKBAhGGABQAFgAYLkZaAJwAXgAgAEAiAEAkgEAmAEAyAEKwAEB&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=pointer+in+c+programming&bih=670&biw=1262&hl=en&ei=v-FFYsuJEMeLwbkPgJ-AiAc&oq=pointer+in+c+&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQvBJYvBJgvB9oAXABeACAAYcCiAGHApIBAzItMZgBAKABAcgBCsABAQ&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=nested+loop+in+c)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=pointers+in+c+programming)
+
 - [Pointers and arrays](https://intranet.hbtn.io/concepts/60) 
 - [Data Structures](https://intranet.hbtn.io/concepts/120) 
 - [C - Arrays](https://intranet.hbtn.io/rltoken/JDzn5TfvFN41WKKvjOfvTg) 
