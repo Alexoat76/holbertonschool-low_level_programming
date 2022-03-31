@@ -65,7 +65,7 @@ Read or watch:
 - In the following examples, the `main.c` files are shown as examples. Use them to test the functions, 
 	Don’t have to push them to repo.
 	We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
-- The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h` 
+- The prototypes of all functions and the prototype of the function `_putchar` been included in the header file called `main.h` 
 - Don’t forget to push the header file.
 
 ## More Info
@@ -117,10 +117,11 @@ prototypes for all types and functions written for the project.
 + **[0-isupper.c](./0-isupper.c)**
 
 * Write a function that checks for uppercase character.
-	* Prototype:  ` int _isupper(int c); ` 
-	* Returns  ` 1 `  if  ` c `  is uppercase
-	* Returns  ` 0 `  otherwise
-**FYI**: The standard library provides a similar function: `isupper`. Run `man isupper` to learn more.
+	* Prototype: `int _isupper(int c);` 
+	* Returns `1` if `c` is uppercase
+	* Returns `0` otherwise
+	
+	**FYI**: The standard library provides a similar function: `isupper`. Run `man isupper` to learn more.
 
 ```bash
 $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-isupper.c -o 0-isuper
@@ -139,6 +140,7 @@ $
 	* Prototype: `int _isdigit(int c);` 
 	* Returns `1` if `c` is a digit
 	* Returns `0` otherwise
+	
 **FYI**: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
 
 ```bash
