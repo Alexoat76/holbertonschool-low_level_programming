@@ -1,5 +1,13 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/*
+ * File: main.h
+ * Author: Alex O. Arevalo T.
+ * email: 3915@holbertonschool.com
+ * Desc: Header file containing prototypes for all functions
+ *       in the 0x04. C - More functions, more nested loops| project.
+ */
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -27,4 +35,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
-#endif
+#endif /* _MAIN_H_ */
