@@ -109,10 +109,6 @@ prototypes for all types and functions written for the project.
 ---
 
 ## Tasks
-
-# 0x06. C - More pointers, arrays and strings
-
-## Tasks
 + [x] 0\. **strcat**
 
 + **[0-strcat.c](./0-strcat.c)**
