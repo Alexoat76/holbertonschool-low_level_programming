@@ -10,7 +10,7 @@
 
 /**
  * Desc: Header file containing prototypes for all functions,
- *       used in the 0x06. C - More pointers, arrays and strings| project.
+ *       used in the 0x06. C - More pointers, arrays and strings|project.
  */
 
 int _putchar(char c);
