@@ -9,7 +9,7 @@
 
 ---
 
-# 0x05. C - Pointers, arrays and strings
+# 0x06. C - More pointers, arrays and strings
 
 In this project, you continue to learn about `pointers`, `arrays` and `strings` in `C language`.
 
