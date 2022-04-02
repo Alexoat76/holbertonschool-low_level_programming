@@ -4,13 +4,13 @@
  * email: 3915@holbertonschool.com
  */
 
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 #include <stdlib.h>
 
 /**
  * Desc: Header file containing prototypes for all functions,
- *       used in the "0x04-pointers_arrays_strings" directory.
+ *       used in the 0x07. C - Even more pointers, arrays and strings| project.
  */
 
 int _putchar(char);
@@ -24,4 +24,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif
+#endif /* _MAIN_H_ */
