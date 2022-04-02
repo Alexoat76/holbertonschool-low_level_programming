@@ -15,7 +15,7 @@ In this project, you continue to learn about `pointers`, `arrays` and `strings` 
 
 <p align="center">
   <img width="275"  
-        src="https://www.freecodecamp.org/news/content/images/2020/08/456d4568d6e2c00e377b9dfae76e1809.gif"
+        src="https://www.freecodecamp.org/news/content/images/2020/08/1534533aefc96880ba542070037d147b.gif"
   >
 </p>
 
