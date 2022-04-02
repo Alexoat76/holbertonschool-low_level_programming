@@ -92,7 +92,8 @@ prototypes for all types and functions written for the project.
 | `101-print_number.c` | `void print_number(int n);`                                    |
 | `103-infinite_add.c` | `char *infinite_add(char *n1, char *n2, char *r, int size_r);` |
 | `104-print_buffer.c` | `void print_buffer(char *b, int size);`                        |
-	
+
+
 ### Tests :heavy_check_mark:
 
 + **[tests](./tests)**: Folder of test files. Provided by Holberton School.
